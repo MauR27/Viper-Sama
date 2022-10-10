@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    line-height: 1.6em;
+    background-color: #ffffff;
+    color: #000;;
+}
+
+
+
+
+
+/* START NAV */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #ffffff;
+    width: 100%;
+    height: 13%;
+    top:0;
+    overflow: hidden;
+    position: fixed;
+}
+
+nav h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding-left: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 2rem;
+    border-bottom: transparent solid 1px;
+    
+}
+
+nav a:hover{
+    border-bottom: solid #429424 1px;
+    color: #429424;
+}
+
+.img{
+    display: flex;
+    height: 70px;
+    width: 60px;
+}
+
+/* END NAV  */
+
+
+/* START ABOUT-ME */
+
+
+.about-me-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    
+    height: 100vh;
+    justify-content: center;
+}
+.about-me-box h2{
+    font-size: 50px;
+    margin: 4rem 2rem 0 ;
+    letter-spacing: 5px;
+    font-family:'Anton', sans-serif;;
+
+}
+.about-me-box p{
+    text-align: center;
+    margin: 0 20rem;
+    font-size: 18px;
+    margin-top: 4rem;
+}
+
+
+/* END ABOUT-ME */
+
+
+/* START ABILITIES  */
+
+
+#abilities{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 3rem;
+    border-left: #000 solid 1px;
+
+    
+}
+
+.pq{
+    text-align: start;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.q-ability{
+    width: 30%;
+    margin: 0 3rem;
+}
+
+.q-ability h2{
+    padding-bottom: .5rem;
+    padding-top: 5rem;
+    font-size: 45px;
+    color: #2d2d2d;
+    letter-spacing: 2px;
+    font-family:'Anton', sans-serif;;
+
+}
+
+
+
+/* START ABILITIES HIDDEN */
+
+
+
+#h4-q-ability{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+#h4-e-ability{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+#h4-c-ability{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+#h4-x-ability{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+/* END ABILITIES HIDDEN */
+
+
+
+.p-ability{
+    padding-left: 2rem;
+    font-size: 16px;
+    padding-bottom: 3rem;
+    color: #6B705C;
+
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-bottom: 20%;
+    }
+
+    to{
+        margin-bottom: 0;
+    }
+}
+
+/* END ABILITIES */
+
+
+/* START BUTTONS */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.abilities-button{
+    width: 80px;
+    height: 80px;
+    margin: .5rem;
+    border: solid 1px #000;
+    transition-duration: 0.3s;
+    background-color: #ffffff;
+    box-shadow: #000 5px 10px ;
+    cursor: pointer;
+
+
+}
+
+.abilities-button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(264deg) brightness(102%) contrast(102%);
+}
+
+.abilities-button img:hover{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(264deg) brightness(102%) contrast(102%);
+    
+}
+
+.abilities-button img:focus{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(264deg) brightness(102%) contrast(102%);
+}
+
+.abilities-button img{
+    display: flex;
+    margin-left: 10px;
+    height: 56px;
+    width: 56px;
+    filter: invert(100%) sepia(6%) saturate(1%) hue-rotate(89deg) brightness(105%) contrast(100%);
+    transition-duration: 0.2s;
+    
+}
+
+
+/* END BUTTONS */
+
+.video video{
+    margin-top:8rem ;
+    margin-right: 5rem;
+    width: 650px;
+    border: #000 solid 1px;
+    box-shadow: #000   15px 20px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
